@@ -1,7 +1,6 @@
 body {
   margin: 0;
-  background-color: gray;
-  /*background-image: url("https://www.rocketcitydoor.com/wp-content/uploads/2017/09/diamond_plate.png");*/ }
+  background-color: gray; }
 
 #nav-bar {
   margin: 0;
@@ -10,17 +9,18 @@ body {
   justify-content: center;
   background-color: #000;
   color: #fff; }
+  #nav-bar li {
+    padding: 20px;
+    list-style-type: none; }
 
-#nav-bar li {
-  padding: 20px;
-  list-style-type: none; }
+#main-feed-head {
+  text-align: center; }
 
 #article-head {
   display: flex;
   justify-content: space-between; }
-
-#article-head h1 {
-  font-size: 40px; }
+  #article-head h1 {
+    font-size: 40px; }
 
 #img-resizer {
   padding-top: 10px;
@@ -41,6 +41,7 @@ body {
   height: auto; }
 
 .example-article {
+  margin: 10px;
   padding: 10px;
   border: 2px solid #000; }
 
