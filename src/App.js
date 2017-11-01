@@ -5,8 +5,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        /* Navbar will be on every page, so it stays in the main App.js, no need
-        to make a separate component */
+        {/* Navbar will be on every page, so it stays in the main App.js, no need
+        to make a separate component */}
         <nav>
           <ul id="nav-bar">
             <li>Home</li>
@@ -15,7 +15,7 @@ class App extends Component {
             <li>Login</li>
           </ul>
         </nav>
-        /* Below copied to file components/home/leftnav */
+        {/* Below copied to file components/home/leftnav */}
         <div className="content-distribution">
           <div className="wrapper">
             <input type="checkbox" id="testToggler" className="input-toggler" />
@@ -37,11 +37,11 @@ class App extends Component {
             </div>
           </div>
           <div className="middle-feed">
-            /* Below copied to components/home/homesplash */
+            {/* Below copied to components/home/homesplash */}
             <div>
               <h1 id="main-feed-head">Hottest News!</h1>
             </div>
-            /* Below copied to components/home/homefeed */
+            {/* Below copied to components/home/homefeed */}
             <div className="example-article">
               <div id="article-head">
                 <h1>Behold the Splash Article!</h1>
@@ -65,7 +65,7 @@ class App extends Component {
             </div>
           </div>
           <div className="social-media">
-            /* Below copied to components/home/twittefeed */
+            {/* Below copied to components/home/twittefeed */}
             <div>
               <h3>Twitter Feed:</h3>
               <p>
